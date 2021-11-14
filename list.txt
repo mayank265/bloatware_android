@@ -1,0 +1,113 @@
+cn.wps.xiaomi.abroad.lite
+code.name.monkey.retromusic | Paranoid Android
+com.android.bips | Default Printing Service
+com.android.browser | Web Browser
+com.android.dreams.basic | Screensaver app
+com.android.dreams.phototable | Screensaver app
+com.android.egg z| Android Easter Egg
+com.android.thememanager
+com.android.thememanager.module
+com.android.wallpaper.livepicker | Live wallpaper
+com.android.wallpaperbackup | Wallpaper backup feature
+com.android.wallpapercropper | Wallpaper cropping feature
+com.autonavi.minimap
+com.bsp.catchlog
+com.duokan.phone.remotecontroller
+com.duokan.phone.remotecontroller.peel.plugin
+com.facebook.appmanager | Facebook
+com.facebook.katana | Facebook
+com.facebook.services | Facebook
+com.facebook.system | Facebook
+com.google.android.apps.docs | Google Docs
+com.google.android.apps.tachyon | Google Duo
+com.google.android.feedback | Feedback app
+com.google.android.inputmethod.latin | Gboard
+com.google.android.marvin.talkback | Talkback feature
+com.google.android.music | Google Play Music
+com.google.android.printservice.recommendation | Mobile Printing
+com.google.android.videos | Google Play Movies & TV
+com.google.ar.lens | AR Lens
+com.hampusolsson.abstruct | Paranoid Android
+com.mi.android.globalFileexplorer| Mi File Manager
+com.mi.android.globalpersonalassistant
+com.mi.globalTrendNews
+com.mi.health | Mi Health
+com.mi.webkit.core | Mi Webkit
+com.milink.service
+com.mipay.wallet.id | Mi Wallet
+com.mipay.wallet.in | Mi Wallet (India)
+com.miui.accessibility
+com.miui.analytics | MIUI Analytics (spyware)
+com.miui.android.fashiongallery | Wallpaper Carousel
+com.miui.backup | Backup app
+com.miui.bugreport | Bug reporting app
+com.miui.calculator | Mi Calculator
+com.miui.cit
+com.miui.cleanmaster | System Cleaner
+com.miui.cloudbackup | Cloud Backup service
+com.miui.cloudservice | Cloud service
+com.miui.cloudservice.sysbase | Cloud service
+com.miui.compass | MIUI Compass
+com.miui.contentcatcher
+com.miui.enbbs
+com.miui.extraphoto | Camera Bokeh effect
+com.miui.freeform | MIUI PiP service
+com.miui.greenguard
+com.miui.huanji
+com.miui.hybrid | Quick Apps (data mining app)
+com.miui.hybrid.accessory | Quick Apps (data mining app)
+com.miui.micloudsync | Cloud Sync
+com.miui.miservice
+com.miui.misound | Music app & sound enhancer
+com.miui.miwallpaper | Wallpaper app
+com.miui.miwallpaper.earth
+com.miui.miwallpaper.mars
+com.miui.msa.global | MSA or MIUI Ad Services
+com.miui.newmidrive
+com.miui.nextpay
+com.miui.phrase | Frequent phrases
+com.miui.player | Music Player
+com.miui.smsextra | Text Message features
+com.miui.touchassistant | Quick Ball feature
+com.miui.translation.kingsoft
+com.miui.userguide | User Guide app
+com.miui.videoplayer | MIUI Video player
+com.miui.virtualsim
+com.miui.vsimcore
+com.miui.weather2 | Weather app
+com.miui.wmsvc
+com.miui.yellowpage | Yellow Page app
+com.miui.zman
+com.netflix.mediaclient | Netflix
+com.netflix.partner.activation | Netflix
+com.opera.app.news | Opera
+com.opera.branding | Opera
+com.opera.branding.news | Opera News
+com.opera.mini.native | Opera Mini
+com.opera.preinstall | Opera
+com.samsung.aasaservice
+com.sohu.inputmethod.sogou.xiaomi
+com.syberia.ota | SyberiaOS
+com.syberia.SyberiaPapers | SyberiaOS
+com.tencent.soter.soterserver | Chinese Payment service 
+com.xiaomi.calendar | Mi Calendar 
+com.xiaomi.channel
+com.xiaomi.discover | Xiaomi System apps updater
+com.xiaomi.glgm | Games
+com.xiaomi.joyose | Junk and safe to remove
+com.xiaomi.location.fused
+com.xiaomi.mi_connect_service
+com.xiaomi.micloud.sdk | Cloud App
+com.xiaomi.midrop | Mi Drop
+com.xiaomi.mipicks | GetApps(Xiaomi app store)
+com.xiaomi.miplay_client
+com.xiaomi.mircs | MIUI to MIUI Message 
+com.xiaomi.mirror 
+com.xiaomi.payment | Mi Pay
+com.xiaomi.scanner | Scanner app   
+in.amazon.mShop.android.shopping | Amazon 
+org.lineageos.recorder | LineageOS
+org.lineageos.snap | LineageOS
+org.simalliance.openmobileapi.service
+pl.zdunex25.updater | Xiaomi.eu
+ros.ota.updater | RevolutionOS 

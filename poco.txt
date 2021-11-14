@@ -1,0 +1,349 @@
+D:\bloat
+? "full n safe.bat"
+List of devices attached
+df29f111        device
+
+Press any key to continue . . .
+"cn.wps.xiaomi.abroad.lite"
+Success
+Failure [not installed for 0]
+"code.name.monkey.retromusic"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.android.bips"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.android.browser"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.android.dreams.basic"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.android.dreams.phototable"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.android.egg z"
+Failure [INSTALL_FAILED_INVALID_APK: Split not found: z]
+Failure [INSTALL_FAILED_INVALID_APK: Split not found: z]
+"com.android.thememanager"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.android.thememanager.module"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.android.wallpaper.livepicker"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.android.wallpaperbackup"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.android.wallpapercropper"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.autonavi.minimap"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.bsp.catchlog"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.duokan.phone.remotecontroller"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.duokan.phone.remotecontroller.peel.plugin"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.facebook.appmanager"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.facebook.katana"
+Success
+Failure [not installed for 0]
+"com.facebook.services"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.facebook.system"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.google.android.apps.docs"
+Success
+Failure [not installed for 0]
+"com.google.android.apps.tachyon"
+Success
+Failure [not installed for 0]
+"com.google.android.feedback"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.google.android.inputmethod.latin"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.google.android.marvin.talkback"
+Success
+Success
+"com.google.android.music"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.google.android.printservice.recommendation"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.google.android.videos"
+Success
+Failure [not installed for 0]
+"com.google.ar.lens"
+Success
+Success
+"com.hampusolsson.abstruct"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.mi.android.globalFileexplorer"
+Success
+
+"com.mi.android.globalFileexplorer"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.mi.android.globalpersonalassistant"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.mi.globalTrendNews"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.mi.health"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.mi.webkit.core"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.milink.service"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.mipay.wallet.id"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.mipay.wallet.in"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.accessibility"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.analytics"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.android.fashiongallery"
+Success
+Failure [not installed for 0]
+"com.miui.backup"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.bugreport"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.calculator"
+Success
+Success
+"com.miui.cit"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.cleanmaster"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.cloudbackup"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.cloudservice"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.cloudservice.sysbase"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.compass"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.contentcatcher"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.enbbs"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.extraphoto"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.freeform"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.greenguard"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.huanji"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.hybrid"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.hybrid.accessory"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.micloudsync"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.miservice"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.misound"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.miwallpaper"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.miwallpaper.earth"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.miwallpaper.mars"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.msa.global"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.newmidrive"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.nextpay"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.phrase"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.player"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.smsextra"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.touchassistant"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.translation.kingsoft"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.userguide"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.videoplayer"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.virtualsim"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.vsimcore"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.weather2"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.wmsvc"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.miui.yellowpage"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.miui.zman"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.netflix.mediaclient"
+Success
+Failure [not installed for 0]
+"com.netflix.partner.activation"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.opera.app.news"
+Success
+Failure [not installed for 0]
+"com.opera.branding"
+Success
+Failure [not installed for 0]
+"com.opera.branding.news"
+Success
+Failure [not installed for 0]
+"com.opera.mini.native"
+Success
+Failure [not installed for 0]
+"com.opera.preinstall"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.samsung.aasaservice"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.sohu.inputmethod.sogou.xiaomi"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.syberia.ota"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.syberia.SyberiaPapers"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.tencent.soter.soterserver"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.calendar"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.channel"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.discover"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.glgm"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.joyose"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.location.fused"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.mi_connect_service"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.micloud.sdk"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.midrop"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.xiaomi.mipicks"
+Success
+Failure [not installed for 0]
+"com.xiaomi.miplay_client"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.xiaomi.mircs"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"com.xiaomi.mirror"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.payment"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"com.xiaomi.scanner"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Success
+"in.amazon.mShop.android.shopping"
+Success
+Failure [not installed for 0]
+"org.lineageos.recorder"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"org.lineageos.snap"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"org.simalliance.openmobileapi.service"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"pl.zdunex25.updater"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+"ros.ota.updater"
+Failure [DELETE_FAILED_INTERNAL_ERROR]
+Failure [not installed for 0]
+Press any key to continue . . .

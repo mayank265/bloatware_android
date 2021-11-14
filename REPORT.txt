@@ -1,0 +1,298 @@
+Press any key to continue . . .
+"cn.wps.xiaomi.abroad.lite"
+Success
+
+Failure [not installed for 0]
+"code.name.monkey.retromusic"
+Failure [not installed for 0]
+"com.android.bips"
+Success
+
+"com.android.browser"
+Failure [not installed for 0]
+"com.android.dreams.basic"
+Success
+
+"com.android.dreams.phototable"
+Success
+
+"com.android.egg z"
+Failure [INSTALL_FAILED_INVALID_APK: Split not found: z]
+Failure [INSTALL_FAILED_INVALID_APK: Split not found: z]
+"com.android.thememanager"
+Success
+
+"com.android.thememanager.module"
+Success
+
+"com.android.wallpaper.livepicker"
+Success
+
+"com.android.wallpaperbackup"
+Success
+
+"com.android.wallpapercropper"
+Success
+
+"com.autonavi.minimap"
+Failure [not installed for 0]
+"com.bsp.catchlog"
+Failure [not installed for 0]
+"com.duokan.phone.remotecontroller"
+Success
+
+Failure [not installed for 0]
+"com.duokan.phone.remotecontroller.peel.plugin"
+Failure [not installed for 0]
+"com.facebook.appmanager"
+Success
+
+"com.facebook.katana"
+Success
+
+Failure [not installed for 0]
+"com.facebook.services"
+Success
+
+"com.facebook.system"
+Success
+
+"com.google.android.apps.docs"
+Failure [not installed for 0]
+"com.google.android.apps.tachyon"
+Failure [not installed for 0]
+"com.google.android.feedback"
+Success
+
+"com.google.android.inputmethod.latin"
+Success
+
+"com.google.android.marvin.talkback"
+Success
+
+"com.google.android.music"
+Failure [not installed for 0]
+"com.google.android.printservice.recommendation"
+Success
+
+"com.google.android.videos"
+Failure [not installed for 0]
+"com.google.ar.lens"
+Success
+
+"com.hampusolsson.abstruct"
+Failure [not installed for 0]
+"com.mi.android.globalFileexplorer"
+Success
+
+"com.mi.android.globalpersonalassistant"
+Failure [not installed for 0]
+"com.mi.globalTrendNews"
+Failure [not installed for 0]
+"com.mi.health"
+Failure [not installed for 0]
+"com.mi.webkit.core"
+Failure [not installed for 0]
+"com.milink.service"
+Success
+
+"com.mipay.wallet.id"
+Failure [not installed for 0]
+"com.mipay.wallet.in"
+Success
+
+"com.miui.accessibility"
+Failure [not installed for 0]
+"com.miui.analytics"
+Success
+
+"com.miui.android.fashiongallery"
+Failure [-1000]
+Failure [-1000]
+"com.miui.backup"
+Success
+
+"com.miui.bugreport"
+Success
+
+"com.miui.calculator"
+Success
+
+"com.miui.cit"
+Failure [not installed for 0]
+"com.miui.cleanmaster"
+Success
+
+"com.miui.cloudbackup"
+Success
+
+"com.miui.cloudservice"
+Success
+
+"com.miui.cloudservice.sysbase"
+Success
+
+"com.miui.compass"
+Success
+
+"com.miui.contentcatcher"
+Failure [not installed for 0]
+"com.miui.enbbs"
+Failure [not installed for 0]
+"com.miui.extraphoto"
+Success
+
+"com.miui.freeform"
+Success
+
+"com.miui.greenguard"
+Failure [not installed for 0]
+"com.miui.huanji"
+Failure [not installed for 0]
+"com.miui.hybrid"
+Success
+
+"com.miui.hybrid.accessory"
+Success
+
+"com.miui.micloudsync"
+Success
+
+"com.miui.miservice"
+Success
+
+"com.miui.misound"
+Success
+
+"com.miui.miwallpaper"
+Success
+
+"com.miui.miwallpaper.earth"
+Failure [not installed for 0]
+"com.miui.miwallpaper.mars"
+Failure [not installed for 0]
+"com.miui.msa.global"
+Success
+
+"com.miui.newmidrive"
+Failure [not installed for 0]
+"com.miui.nextpay"
+Failure [not installed for 0]
+"com.miui.phrase"
+Success
+
+"com.miui.player"
+Success
+
+"com.miui.smsextra"
+Failure [not installed for 0]
+"com.miui.touchassistant"
+Success
+
+"com.miui.translation.kingsoft"
+Failure [not installed for 0]
+"com.miui.userguide"
+Failure [not installed for 0]
+"com.miui.videoplayer"
+Failure [not installed for 0]
+"com.miui.virtualsim"
+Failure [not installed for 0]
+"com.miui.vsimcore"
+Success
+
+"com.miui.weather2"
+Success
+
+"com.miui.wmsvc"
+Success
+
+"com.miui.yellowpage"
+Success
+
+"com.miui.zman"
+Failure [not installed for 0]
+"com.netflix.mediaclient"
+Success
+
+Failure [not installed for 0]
+"com.netflix.partner.activation"
+Success
+
+"com.opera.app.news"
+Failure [not installed for 0]
+"com.opera.branding"
+Failure [not installed for 0]
+"com.opera.branding.news"
+Failure [not installed for 0]
+"com.opera.mini.native"
+Failure [not installed for 0]
+"com.opera.preinstall"
+Failure [not installed for 0]
+"com.samsung.aasaservice"
+Failure [not installed for 0]
+"com.sohu.inputmethod.sogou.xiaomi"
+Failure [not installed for 0]
+"com.syberia.ota"
+Failure [not installed for 0]
+"com.syberia.SyberiaPapers"
+Failure [not installed for 0]
+"com.tencent.soter.soterserver"
+Success
+
+"com.xiaomi.calendar"
+Success
+
+"com.xiaomi.channel"
+Failure [not installed for 0]
+"com.xiaomi.discover"
+Success
+
+"com.xiaomi.glgm"
+Success
+
+"com.xiaomi.joyose"
+Success
+
+"com.xiaomi.location.fused"
+Success
+
+"com.xiaomi.mi_connect_service"
+Success
+
+"com.xiaomi.micloud.sdk"
+Success
+
+"com.xiaomi.midrop"
+Success
+
+"com.xiaomi.mipicks"
+Success
+
+"com.xiaomi.miplay_client"
+Success
+
+"com.xiaomi.mircs"
+Failure [not installed for 0]
+"com.xiaomi.mirror"
+Failure [not installed for 0]
+"com.xiaomi.payment"
+Success
+
+"com.xiaomi.scanner"
+Success
+
+"in.amazon.mShop.android.shopping"
+Success
+
+Failure [not installed for 0]
+"org.lineageos.recorder"
+Failure [not installed for 0]
+"org.lineageos.snap"
+Failure [not installed for 0]
+"org.simalliance.openmobileapi.service"
+Failure [not installed for 0]
+"pl.zdunex25.updater"
+Failure [not installed for 0]
+"ros.ota.updater"
+Failure [not installed for 0]
+Press any key to continue . . .
