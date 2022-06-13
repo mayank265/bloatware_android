@@ -1,0 +1,44 @@
+What applications can I safely uninstall?
+Analytics: com.miui.analytics
+FaceMoji Keyboard: com.facemoji.lite.xiaomi [good Fabio informs us that this app cannot be uninstalled, it can only be deactivated with the command "pm disable-user com.facemoji.lite.xiaomi"]
+Ranges: com.xiaomi.glgm
+Joyose: com.xiaomi.joyose
+Music: com.miui.player
+Notes: com.miui.notes
+Quick Ball: com.miui.hybrid
+My Browser: com.mi.globalbrowser
+Mi Credit: com.mipay.wallet.id
+Pay me: com.mipay.wallet.in
+I Recycle: com.xiaomi.mirecycle
+Mi Remote: com.duokan.phone.remotecontrollercom.miui.userguide
+Mi Remote Add-on: com.duokan.phone.remotecontroller.peel.plugin
+I Roam: com.miui.virtualsim
+Mi Roaming Core: com.miui.vsimcore
+We Video: com.miui.videoplayer
+Mi Carousel Wallpaper: com.miui.android.fashiongallery
+MIUI Daemon: com.miui.daemon
+MIUI Forum: com.miui.enbbs
+GetApps: com.xiaomi.mipicks
+MIUI MSA: com.miui.msa.global
+MIUI Tutorial: com.miui.userguide
+Gboard: com.google.android.inputmethod.latin
+gmail: com.google.android.gm [ONLY IF YOU DON'T USE IT]
+Google Calendar: com.google.android.calendar [ONLY IF YOU DON'T USE IT]
+Google Chrome: com.android.chrome [ONLY IF YOU DON'T USE IT]
+Google Drive: com.google.android.apps.docs
+Google Duo: com.google.android.apps.tachyon
+Google Lens: com.google.ar.lens
+Google Music: com.google.android.music
+Google News : com.google.android.apps.magazines
+Google One: com.google.android.apps.subscriptions.red
+Google Photos: com.google.android.apps.photos [ONLY IF YOU DON'T USE IT]
+Google Play Movies: com.google.android.videos
+Google Search: com.google.android.googlequicksearchbox
+Hangouts: com.google.android.talk
+TalkBack: com.google.android.marvin.talkback
+Android Egg: com.android.egg
+live Wallpaper: com.android.wallpaper.livepicker
+Yandex: ru.yandex.searchplugin
+The Amazon: com.amazon.mShop.android.shopping [ONLY IF YOU DON'T USE IT]
+Facebook Services: com.facebook.services [ONLY IF YOU DON'T USE IT]
+Netflix: com.netflix.partner.activation [ONLY IF YOU DON'T USE IT]

@@ -65,7 +65,6 @@ for %%X in (
 "com.miui.hybrid.accessory"
 "com.miui.micloudsync"
 "com.miui.miservice"
-"com.miui.misound"
 "com.miui.miwallpaper"
 "com.miui.miwallpaper.earth"
 "com.miui.miwallpaper.mars"

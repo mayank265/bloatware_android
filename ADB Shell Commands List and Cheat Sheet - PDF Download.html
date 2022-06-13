@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://technastic.com/adb-shell-commands-list/ -->
+<html lang="en-US" class="no-js no-svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+<title>ADB Shell Commands List and Cheat Sheet - PDF Download</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap"><style id="" media="all" onload="this.media=&#39;all&#39;">/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXpsog.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXpsog.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXpsog.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&#038;display=swap" /></noscript><link rel="stylesheet" href="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/6ef1fdea223a1423b6419d62bdf8eb41.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" onerror="this.removeAttribute(&#39;data-rocket-async&#39;)" media="all" data-minify="1">
+<meta name="description" content="Check out the directory of all ADB Shell commands list with a cheat sheat describing their functions, We&#39;ll also see how we can use ADB shell commands.">
+<link rel="canonical" href="https://technastic.com/adb-shell-commands-list/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ADB Shell Commands List and Detailed Cheat Sheet">
+<meta property="og:description" content="Check out the directory of all ADB Shell commands list with a cheat sheat describing their functions, We&#39;ll also see how we can use ADB shell commands.">
+<meta property="og:url" content="https://technastic.com/adb-shell-commands-list/">
+<meta property="og:site_name" content="Technastic">
+<meta property="article:publisher" content="https://www.facebook.com/TechnasticWeb">
+<meta property="article:published_time" content="2020-03-14T18:42:20+00:00">
+<meta property="article:modified_time" content="2021-12-29T10:22:57+00:00">
+<meta property="og:image" content="https://technastic.com/wp-content/uploads/2020/03/adb-shell-commands.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="419">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@TechnasticWeb">
+<meta name="twitter:site" content="@TechnasticWeb">
+<script type="text/javascript" async="" src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/analytics.js.download"></script><script type="text/javascript" async="" src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/js"></script><script type="text/javascript" async="" id="gauges-tracker" data-site-id="5e8cbbc1d4c1ce43233601ed" src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/track.js.download"></script><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://technastic.com/#organization","name":"Technastic","url":"https://technastic.com/","sameAs":["https://in.pinterest.com/Technastic/","https://www.facebook.com/TechnasticWeb","https://twitter.com/TechnasticWeb"],"logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://technastic.com/#/schema/logo/image/","url":"https://technastic.com/wp-content/uploads/2020/04/tn-logo-grad.png","contentUrl":"https://technastic.com/wp-content/uploads/2020/04/tn-logo-grad.png","width":86,"height":70,"caption":"Technastic"},"image":{"@id":"https://technastic.com/#/schema/logo/image/"}},{"@type":"WebSite","@id":"https://technastic.com/#website","url":"https://technastic.com/","name":"Technastic","description":"Tips and tutorials on Windows, Mac, Linux, Android, and iOS.","publisher":{"@id":"https://technastic.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://technastic.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://technastic.com/adb-shell-commands-list/#primaryimage","url":"https://technastic.com/wp-content/uploads/2020/03/adb-shell-commands.jpg","contentUrl":"https://technastic.com/wp-content/uploads/2020/03/adb-shell-commands.jpg","width":800,"height":419,"caption":"adb shell commands"},{"@type":"WebPage","@id":"https://technastic.com/adb-shell-commands-list/#webpage","url":"https://technastic.com/adb-shell-commands-list/","name":"ADB Shell Commands List and Cheat Sheet - PDF Download","isPartOf":{"@id":"https://technastic.com/#website"},"primaryImageOfPage":{"@id":"https://technastic.com/adb-shell-commands-list/#primaryimage"},"datePublished":"2020-03-14T18:42:20+00:00","dateModified":"2021-12-29T10:22:57+00:00","description":"Check out the directory of all ADB Shell commands list with a cheat sheat describing their functions, We'll also see how we can use ADB shell commands.","breadcrumb":{"@id":"https://technastic.com/adb-shell-commands-list/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://technastic.com/adb-shell-commands-list/"]}]},{"@type":"BreadcrumbList","@id":"https://technastic.com/adb-shell-commands-list/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://technastic.com/"},{"@type":"ListItem","position":2,"name":"ADB Shell Commands List and Detailed Cheat Sheet"}]},{"@type":"Article","@id":"https://technastic.com/adb-shell-commands-list/#article","isPartOf":{"@id":"https://technastic.com/adb-shell-commands-list/#webpage"},"author":{"@id":"https://technastic.com/#/schema/person/46bc8b5482e3f660cbba1fb1fb2bccdc"},"headline":"ADB Shell Commands List and Detailed Cheat Sheet","datePublished":"2020-03-14T18:42:20+00:00","dateModified":"2021-12-29T10:22:57+00:00","mainEntityOfPage":{"@id":"https://technastic.com/adb-shell-commands-list/#webpage"},"wordCount":2139,"commentCount":1,"publisher":{"@id":"https://technastic.com/#organization"},"image":{"@id":"https://technastic.com/adb-shell-commands-list/#primaryimage"},"thumbnailUrl":"https://technastic.com/wp-content/uploads/2020/03/adb-shell-commands.jpg","keywords":["ADB and Fastboot"],"articleSection":["Android","Tutorials"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://technastic.com/adb-shell-commands-list/#respond"]}]},{"@type":"Person","@id":"https://technastic.com/#/schema/person/46bc8b5482e3f660cbba1fb1fb2bccdc","name":"Rakesh","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://technastic.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/2a853b1132f159c03bec4afdd8484adf?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/2a853b1132f159c03bec4afdd8484adf?s=96&d=mm&r=g","caption":"Rakesh"},"description":"Rakesh is a teacher by profession and geek by heart with an ardent passion for all-things-tech. He has been a theme-maker, modder and has contributed a few custom ROMs. He enjoys learning, discovering, growing, and sharing the newest and latest trends in the world of Android. Current Devices: Galaxy S21 Ultra, iPhone 12 Pro, Redmi K20 Pro, and LG Wing.","sameAs":["https://technastic.com/"],"url":"https://technastic.com/author/rakesh/"}]}</script>
+
+<link rel="dns-prefetch" href="https://pagead2.googlesyndication.com/">
+<link rel="dns-prefetch" href="https://www.googletagservices.com/">
+<link rel="dns-prefetch" href="https://googleads.g.doubleclick.net/">
+<link rel="dns-prefetch" href="https://tpc.googlesyndication.com/">
+<link rel="dns-prefetch" href="https://csi.gstatic.com/">
+<link rel="dns-prefetch" href="https://securepubads.g.doubleclick.net/">
+<link rel="dns-prefetch" href="https://secure.gaug.es/">
+<link rel="dns-prefetch" href="https://adservice.google.com/">
+<link rel="dns-prefetch" href="https://adservice.google.co.in/">
+<link rel="dns-prefetch" href="https://www.google-analytics.com/">
+<link rel="dns-prefetch" href="https://www.google.com/">
+<link rel="dns-prefetch" href="https://lh3.googleusercontent.com/">
+<link rel="dns-prefetch" href="https://ad.doubleclick.net/">
+<link rel="dns-prefetch" href="https://partner.googleadservices.com/">
+<link rel="dns-prefetch" href="https://pagead2.googleadservices.com/">
+<link rel="dns-prefetch" href="https://fqtag.com/">
+<link rel="dns-prefetch" href="https://p4-erhn4ek2n6ghg-mmhq6pidm373iztc-if-v6exp3-v4.metric.gstatic.com/">
+<link rel="dns-prefetch" href="https://p4-dms6kov5ihiy2-m7dsfipihvs54df3-if-v6exp3-v4.metric.gstatic.com/">
+<link rel="dns-prefetch" href="https://p4-fhbix4i73f2mw-zi5a53vpjyaluav3-if-v6exp3-v4.metric.gstatic.com/">
+<link rel="dns-prefetch" href="https://encrypted-tbn2.gstatic.com/">
+<link rel="dns-prefetch" href="https://encrypted-tbn0.gstatic.com/">
+<link rel="dns-prefetch" href="https://encrypted-tbn1.gstatic.com/">
+<link rel="dns-prefetch" href="https://www.gstatic.com/">
+<link href="https://fonts.gstatic.com/" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Technastic » Feed" href="https://technastic.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Technastic » Comments Feed" href="https://technastic.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Technastic » ADB Shell Commands List and Detailed Cheat Sheet Comments Feed" href="https://technastic.com/adb-shell-commands-list/feed/">
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--typology-acc: #3e1cd8;--wp--preset--color--typology-txt: #0c0000;--wp--preset--color--typology-meta: #3e1cd8;--wp--preset--color--typology-bg: #ffffff;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 14.4px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 25.2px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 18px;--wp--preset--font-size--huge: 32.4px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<style id="typology-main-inline-css" type="text/css">
+ body, blockquote:before, q:before{ font-family: 'Montserrat'; font-weight: 400;} body, .typology-action-button .sub-menu{ color:#0c0000; } body{ background:#f8f8f8; font-size: 1.8rem; } .typology-fake-bg{ background:#f8f8f8; } .typology-sidebar, .typology-section{ background:#ffffff; } h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .submit, .mks_read_more a, input[type="submit"], input[type="button"], a.mks_button, .cover-letter, .post-letter, .typology-pagination a, .typology-pagination span, .comment-author .fn, .post-date-month, .typology-button-social, .mks_autor_link_wrap a, .entry-pre-title, .typology-button, button, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button { font-family: 'Montserrat'; font-weight: 600;}.typology-header .typology-nav{ font-family: 'Montserrat'; font-weight: ;} .typology-cover .entry-title, .typology-cover h1 { font-size: 6.4rem; } h1, .h1 { font-size: 3.3rem; } h2, .h2 { font-size: 3.0rem; } h3, .h3 { font-size: 2.7rem; } h4, .h4 { font-size: 2.4rem; } h5, .h5, .typology-layout-c.post-image-on .entry-title, blockquote, q { font-size: 2.2rem; } h6, .h6 { font-size: 1.9rem; } .widget{ font-size: 1.8rem; } .typology-header .typology-nav a{ font-size: 1.6rem; } .typology-layout-b .post-date-hidden, .meta-item{ font-size: 1.4rem; } .post-letter { font-size: 20.0rem; } .typology-layout-c .post-letter{ height: 20.0rem; } .cover-letter { font-size: 45.0rem; } h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .post-date-month{ color:#000e28; } .typology-single-sticky a{ color:#0c0000; } .entry-title a:hover, .typology-single-sticky a:hover{ color:#3e1cd8; } .bypostauthor .comment-author:before, #cancel-comment-reply-link:after{ background:#3e1cd8; }a, .widget .textwidget a, .typology-layout-b .post-date-hidden{ color: #3e1cd8; } .single .typology-section:first-child .section-content, .section-content-page, .section-content.section-content-a{ max-width: 780px; }.typology-header{ height:60px; }.typology-header.typology-header-sticky{ height:60px; }.typology-header-sticky-on .typology-header{ background:#3e1cd8; } .cover-letter{ padding-top: 60px; } .site-title a, .typology-site-description{ color: #ffffff; } .typology-header .typology-nav, .typology-header .typology-nav > li > a{ color: #ffffff; } .typology-header .typology-nav .sub-menu a{ color:#0c0000; } .typology-header .typology-nav .sub-menu a:hover{ color: #3e1cd8; } .typology-action-button .sub-menu ul a:before{ background: #3e1cd8; } .sub-menu .current-menu-item a{ color:#3e1cd8; } .dot, .typology-header .typology-nav .sub-menu{ background:#ffffff; } .typology-header .typology-main-navigation .sub-menu .current-menu-ancestor > a, .typology-header .typology-main-navigation .sub-menu .current-menu-item > a{ color: #3e1cd8; } .typology-header-wide .slot-l{ left: 10px; } .typology-header-wide .slot-r{ right: 5px; }.meta-item, .meta-item span, .meta-item a, .comment-metadata a{ color: #3e1cd8; } .comment-meta .url, .meta-item a:hover{ color:#000e28; } .typology-post:after, .section-title:after, .typology-pagination:before{ background:rgba(0,14,40,0.2); } .typology-layout-b .post-date-day, .typology-outline-nav li a:hover, .style-timeline .post-date-day{ color:#3e1cd8; } .typology-layout-b .post-date:after, blockquote:before, q:before{ background:#3e1cd8; } .typology-sticky-c, .typology-sticky-to-top span, .sticky-author-date{ color: #3e1cd8; } .typology-outline-nav li a{ color: #0c0000; } .typology-post.typology-layout-b:before, .section-content-b .typology-ad-between-posts:before{ background:rgba(12,0,0,0.1); }.submit, .mks_read_more a, input[type="submit"], input[type="button"], a.mks_button, .typology-button, .submit, .typology-button-social, .page-template-template-authors .typology-author .typology-button-social, .widget .mks_autor_link_wrap a, .widget .meks-instagram-follow-link a, .widget .mks_read_more a, button, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button { color:#ffffff; background: #3e1cd8; border:1px solid #3e1cd8; } body div.wpforms-container-full .wpforms-form input[type=submit]:hover, body div.wpforms-container-full .wpforms-form input[type=submit]:focus, body div.wpforms-container-full .wpforms-form input[type=submit]:active, body div.wpforms-container-full .wpforms-form button[type=submit]:hover, body div.wpforms-container-full .wpforms-form button[type=submit]:focus, body div.wpforms-container-full .wpforms-form button[type=submit]:active, body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, body div.wpforms-container-full .wpforms-form .wpforms-page-button:active, body div.wpforms-container-full .wpforms-form .wpforms-page-button:focus { color:#ffffff; background: #3e1cd8; border:1px solid #3e1cd8; } .page-template-template-authors .typology-author .typology-icon-social:hover { border:1px solid #3e1cd8; } .button-invert{ color:#3e1cd8; background:transparent; } .widget .mks_autor_link_wrap a:hover, .widget .meks-instagram-follow-link a:hover, .widget .mks_read_more a:hover{ color:#ffffff; }.typology-cover{ min-height: 190px; } .typology-cover-empty{ height:114px; min-height:114px; } .typology-fake-bg .typology-section:first-child { top: -54px; } .typology-flat .typology-cover-empty{ height:60px; } .typology-flat .typology-cover{ min-height:60px; } .typology-cover-empty, .typology-cover, .typology-header-sticky{background: #3e1cd8;; } .typology-cover-overlay:after{ background: rgba(62,28,216,0.6); } .typology-sidebar-header{ background:#3e1cd8; } .typology-cover, .typology-cover .entry-title, .typology-cover .entry-title a, .typology-cover .meta-item, .typology-cover .meta-item span, .typology-cover .meta-item a, .typology-cover h1, .typology-cover h2, .typology-cover h3{ color: #ffffff; } .typology-cover .typology-button{ color: #3e1cd8; background:#ffffff; border:1px solid #ffffff; } .typology-cover .button-invert{ color: #ffffff; background: transparent; } .typology-cover-slider .owl-dots .owl-dot span{ background:#ffffff; }.typology-outline-nav li:before, .widget ul li:before{ background:#3e1cd8; } .widget a{ color:#0c0000; } .widget a:hover, .widget_calendar table tbody td a, .entry-tags a:hover, .wp-block-tag-cloud a:hover{ color:#3e1cd8; } .widget_calendar table tbody td a:hover, .widget table td, .entry-tags a, .wp-block-tag-cloud a{ color:#0c0000; } .widget table, .widget table td, .widget_calendar table thead th, table, td, th{ border-color: rgba(12,0,0,0.3); } .widget ul li, .widget .recentcomments{ color:#0c0000; } .widget .post-date{ color:#3e1cd8; } #today{ background:rgba(12,0,0,0.1); }.typology-pagination .current, .typology-pagination .infinite-scroll a, .typology-pagination .load-more a, .typology-pagination .nav-links .next, .typology-pagination .nav-links .prev, .typology-pagination .next a, .typology-pagination .prev a{ color: #ffffff; background:#000e28; } .typology-pagination a, .typology-pagination span{ color: #000e28; border:1px solid #000e28; }.typology-footer{ background:#ffffff; color:#001d3a; } .typology-footer h1, .typology-footer h2, .typology-footer h3, .typology-footer h4, .typology-footer h5, .typology-footer h6, .typology-footer .post-date-month{ color:#001d3a; } .typology-count{ background: #3e1cd8; } .typology-footer a, .typology-footer .widget .textwidget a{ color: #3e1cd8; }input[type="text"], input[type="email"],input[type=search], input[type="url"], input[type="date"], input[type="password"], textarea, select{ border-color:rgba(12,0,0,0.2); } blockquote:after, blockquote:before, q:after, q:before{ -webkit-box-shadow: 0 0 0 10px #ffffff; box-shadow: 0 0 0 10px #ffffff; } pre, .entry-content #mc_embed_signup{ background: rgba(12,0,0,0.1); }.wp-block-button__link{ background: #3e1cd8; color: #ffffff; } .wp-block-image figcaption, .wp-block-audio figcaption{ color: #0c0000; } .wp-block-pullquote:not(.is-style-solid-color) blockquote{ border-top:2px solid #0c0000; border-bottom:2px solid #0c0000; } .wp-block-pullquote.is-style-solid-color{ background: #3e1cd8; color: #ffffff; } .wp-block-separator{ border-color: rgba(12,0,0,0.3); }.typology-footer .container > .col-lg-4{ margin-top:8rem; }body.wp-editor{ background:#ffffff; }.has-small-font-size{ font-size: 1.3rem;}.has-large-font-size{ font-size: 1.9rem;}.has-huge-font-size{ font-size: 2.2rem;}@media(min-width: 801px){.has-small-font-size{ font-size: 1.4rem;}.has-normal-font-size{ font-size: 1.8rem;}.has-large-font-size{ font-size: 2.5rem;}.has-huge-font-size{ font-size: 3.2rem;}}.has-typology-acc-background-color{ background-color: #3e1cd8;}.has-typology-acc-color{ color: #3e1cd8;}.has-typology-txt-background-color{ background-color: #0c0000;}.has-typology-txt-color{ color: #0c0000;}.has-typology-meta-background-color{ background-color: #3e1cd8;}.has-typology-meta-color{ color: #3e1cd8;}.has-typology-bg-background-color{ background-color: #ffffff;}.has-typology-bg-color{ color: #ffffff;}.site-title{text-transform: uppercase;}.typology-site-description{text-transform: none;}.typology-nav{text-transform: none;}h1, h2, h3, h4, h5, h6, .wp-block-cover-text, .wp-block-cover-image-text{text-transform: none;}.section-title{text-transform: none;}.widget-title{text-transform: none;}.meta-item{text-transform: none;}.typology-button{text-transform: uppercase;}.submit, .mks_read_more a, input[type="submit"], input[type="button"], a.mks_button, .typology-button, .widget .mks_autor_link_wrap a, .widget .mks_read_more a, button, .typology-button-social, .wp-block-button__link, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button { text-transform: uppercase; }
+</style>
+<style id="rocket-lazyload-inline-css" type="text/css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://technastic.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+</style>
+<script type="text/javascript" src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/jquery-3.5.1.min.js.download" id="jquery-core-js"></script>
+<link rel="https://api.w.org/" href="https://technastic.com/wp-json/"><link rel="alternate" type="application/json" href="https://technastic.com/wp-json/wp/v2/posts/9921"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://technastic.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://technastic.com/wp-includes/wlwmanifest.xml">
+<link rel="shortlink" href="https://technastic.com/?p=9921">
+<link rel="alternate" type="application/json+oembed" href="https://technastic.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnastic.com%2Fadb-shell-commands-list%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://technastic.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnastic.com%2Fadb-shell-commands-list%2F&amp;format=xml">
+<link rel="amphtml" href="https://technastic.com/adb-shell-commands-list/amp/">
+<link rel="preload" as="font" href="https://technastic.com/wp-content/themes/typology/assets/fonts/fontawesome-webfont.woff2?v=4.7.0" crossorigin=""><link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="anonymous">
+<link rel="icon" href="https://technastic.com/wp-content/uploads/2020/07/cropped-technastic-logo-512x512-1-32x32.png" sizes="32x32">
+<link rel="icon" href="https://technastic.com/wp-content/uploads/2020/07/cropped-technastic-logo-512x512-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://technastic.com/wp-content/uploads/2020/07/cropped-technastic-logo-512x512-1-180x180.png">
+<meta name="msapplication-TileImage" content="https://technastic.com/wp-content/uploads/2020/07/cropped-technastic-logo-512x512-1-270x270.png">
+<style>
+.ai-viewports                 {--ai: 1;}
+.ai-viewport-3                { display: none !important;}
+.ai-viewport-2                { display: none !important;}
+.ai-viewport-1                { display: inherit !important;}
+.ai-viewport-0                { display: none !important;}
+@media (min-width: 768px) and (max-width: 979px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-2                { display: inherit !important;}
+}
+@media (max-width: 767px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-3                { display: inherit !important;}
+}
+</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script type="text/javascript">
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script>
+<style data-styled="active" data-styled-version="5.3.3"></style><script>(function() {
+			// injected DOM script is not a content script anymore,
+			// it can modify objects and functions of the page
+			var _pushState = history.pushState;
+			history.pushState = function(state, title, url) {
+				_pushState.call(this, state, title, url);
+				window.dispatchEvent(
+					new CustomEvent('state-changed', { detail: url })
+				);
+			};
+			// repeat the above for replaceState too
+		})();</script><script>(function() {
+			// injected DOM script is not a content script anymore,
+			// it can modify objects and functions of the page
+			var _pushState = history.pushState;
+			history.pushState = function(state, title, url) {
+				_pushState.call(this, state, title, url);
+				window.dispatchEvent(
+					new CustomEvent('state-changed', { detail: url })
+				);
+			};
+			// repeat the above for replaceState too
+		})();</script><script>(function() {
+			// injected DOM script is not a content script anymore,
+			// it can modify objects and functions of the page
+			var _pushState = history.pushState;
+			history.pushState = function(state, title, url) {
+				_pushState.call(this, state, title, url);
+				window.dispatchEvent(
+					new CustomEvent('state-changed', { detail: url })
+				);
+			};
+			// repeat the above for replaceState too
+		})();</script><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><style id="typology-full-fix" type="text/css">.alignfull { max-width: 1170px; width: 100vw; left:-195px; }</style><style id="__3perf_googleFontsStylesheet">/* cyrillic-ext */
+@font-face{font-display:swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face{font-display:swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face{font-display:swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face{font-display:swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face{font-display:swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face{font-display:swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face{font-display:swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face{font-display:swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face{font-display:swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face{font-display:swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style></head>
+<body class="post-template-default single single-post postid-9921 single-format-standard wp-embed-responsive typology-v_1_6_3" data-new-gr-c-s-check-loaded="14.1017.0" data-gr-ext-installed="">
+<header id="typology-header" class="typology-header" style="z-index: 1000;">
+<div class="container">
+<div class="slot-l">
+<div class="typology-site-branding">
+<span class="site-title h4"><a href="https://technastic.com/" rel="home"><img width="600" height="87" class="typology-logo entered lazyloaded" src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/technastic-logo-600x87-1.webp" alt="Technastic" data-lazy-src="https://technastic.com/wp-content/uploads/2020/07/technastic-logo-600x87-1.png" data-ll-status="loaded"><noscript><img width="600" height="87" class="typology-logo" src="https://technastic.com/wp-content/uploads/2020/07/technastic-logo-600x87-1.png" alt="Technastic"></noscript></a></span>
+</div>
+</div>
+<div class="slot-c">
+<ul id="menu-main-menu" class="typology-nav typology-main-navigation" style="opacity: 1; position: relative;"><li id="menu-item-28" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-28"><a href="https://technastic.com/apple/">Apple</a>
+<ul class="sub-menu">
+<li id="menu-item-1277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1277"><a href="https://technastic.com/tag/mac-os-x/">Mac OS X</a></li>
+<li id="menu-item-1276" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1276"><a href="https://technastic.com/tag/iphone/">iPhone</a></li>
+<li id="menu-item-1275" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1275"><a href="https://technastic.com/tag/ipad/">iPad</a></li>
+</ul>
+</li>
+<li id="menu-item-27" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27"><a href="https://technastic.com/android/">Android</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-35"><a href="https://technastic.com/microsoft/windows/">Windows</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="https://technastic.com/linux/">Linux</a></li>
+<li id="menu-item-17414" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17414"><a href="https://technastic.com/tag/tv/">TV</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-34"><a href="https://technastic.com/tutorials/">Guides</a>
+<ul class="sub-menu">
+<li id="menu-item-1274" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1274"><a href="https://technastic.com/tips/">Tips and Tricks</a></li>
+<li id="menu-item-339" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-339"><a href="https://technastic.com/geek-stuff/">Geek Stuff</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="slot-r">
+<ul class="typology-nav typology-actions-list">
+<li class="typology-actions-button typology-action-search">
+<span>
+<i class="fa fa-search"></i>
+</span>
+<ul class="sub-menu">
+<li>
+<form class="typology-search-form" action="https://technastic.com/" method="get">
+<input name="s" type="text" value="" placeholder="Type here to search...">
+<button type="submit" class="typology-button typology-button-search typology-icon-button">Search</button>
+</form> </li>
+</ul>
+</li><li class="typology-action-button typology-action-sidebar ">
+<span>
+<i class="fa fa-bars"></i>
+</span>
+</li>
+</ul></div> </div>
+
+<script async="" src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/js(1)" type="text/javascript"></script>
+<script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-68969449-1');
+</script>
+
+
+</header>
+<div id="typology-cover" class="typology-cover typology-cover-empty">
+</div>
+<div class="typology-fake-bg">
+<div class="typology-section">
+<div class="section-content">
+<article id="post-9921" class="typology-post typology-single-post post-9921 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-tutorials tag-adb-and-fastboot">
+<header class="entry-header">
+<h1 class="entry-title entry-title-cover-empty">ADB Shell Commands List and Detailed Cheat Sheet</h1>
+<div class="entry-meta"><div class="meta-item meta-author">By <span class="vcard author"><span class="fn"><a href="https://technastic.com/author/rakesh/">Rakesh</a></span></span></div><div class="meta-item meta-date"><span class="updated">December 29, 2021</span></div><div class="meta-item meta-category">In <a href="https://technastic.com/android/" rel="category tag">Android</a>, <a href="https://technastic.com/tutorials/" rel="category tag">Tutorials</a></div></div>
+</header>
+<div class="entry-content clearfix">
+<div class="code-block code-block-1" style="margin: 8px auto; text-align: center; display: block; clear: both;">
+<script async="" src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/f.txt" crossorigin="anonymous" type="text/javascript"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3671910213332959" data-ad-slot="2458801408" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p>ADB or Android Debug Bridge is a command-line tool developed to facilitate communication between a computer and a connected emulator or Android device. Using ADB and ADB Shell commands, we can perform various actions on a device. In order that you can execute ADB and <a href="https://technastic.com/fastboot-commands-list/"><strong>Fastboot commands</strong></a>, the Android SDK Platform-tools package must be installed on your Windows, Linux, or macOS computer. In this article, we’ll explore a huge list of ADB Shell commands list with a cheat sheet.</p>
+<p>Don’t forget to check out the detailed list of <a href="https://technastic.com/adb-commands-list-adb-cheat-sheet/"><strong>ADB commands</strong></a> explaining the function of each of them.</p>
+<div class="lwptoc lwptoc-center lwptoc-baseItems lwptoc-transparent lwptoc-notInherit" data-smooth-scroll="1" data-smooth-scroll-offset="24" data-lwptoc-initialized="1"><div class="lwptoc_i"> <div class="lwptoc_header" style="font-size:100%;">
+<b class="lwptoc_title" style="font-weight:600;">In this Article</b> <span class="lwptoc_toggle">
+<a href="https://technastic.com/adb-shell-commands-list/#" class="lwptoc_toggle_label" data-label="click to see">hide</a>
+</span>
+</div>
+<div class="lwptoc_items lwptoc_items-visible">
+<div class="lwptoc_itemWrap"><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#What_is_ADB_Shell">
+<span class="lwptoc_item_number">1.</span>
+<span class="lwptoc_item_label">What is ADB Shell?</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#ADB_Shell_Commands_List_Cheat_Sheet">
+<span class="lwptoc_item_number">2.</span>
+<span class="lwptoc_item_label">ADB Shell Commands List &amp; Cheat Sheet</span>
+</a>
+<div class="lwptoc_itemWrap"><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell">
+<span class="lwptoc_item_number">2.1.</span>
+<span class="lwptoc_item_label">adb shell</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_uninstall">
+<span class="lwptoc_item_number">2.2.</span>
+<span class="lwptoc_item_label">adb shell pm uninstall</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_cmd_package_install-existing">
+<span class="lwptoc_item_number">2.3.</span>
+<span class="lwptoc_item_label">adb shell cmd package install-existing</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_disable-user_-user_0">
+<span class="lwptoc_item_number">2.4.</span>
+<span class="lwptoc_item_label">adb shell pm disable-user —user 0</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_clear_-user_0">
+<span class="lwptoc_item_number">2.5.</span>
+<span class="lwptoc_item_label">adb shell pm clear –user 0</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_hide_-user_0">
+<span class="lwptoc_item_number">2.6.</span>
+<span class="lwptoc_item_label">adb shell pm hide –user 0</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_list_packages">
+<span class="lwptoc_item_number">2.7.</span>
+<span class="lwptoc_item_label">adb shell pm list packages</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_path_package-name">
+<span class="lwptoc_item_number">2.8.</span>
+<span class="lwptoc_item_label">adb shell pm path &lt;package-name&gt;</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_create-user">
+<span class="lwptoc_item_number">2.9.</span>
+<span class="lwptoc_item_label">adb shell pm create-user</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_remove-user">
+<span class="lwptoc_item_number">2.10.</span>
+<span class="lwptoc_item_label">adb shell pm remove-user</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_get-max-users">
+<span class="lwptoc_item_number">2.11.</span>
+<span class="lwptoc_item_label">adb shell pm get-max-users</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_list_features">
+<span class="lwptoc_item_number">2.12.</span>
+<span class="lwptoc_item_label">adb shell pm list features</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_pm_list_permissions">
+<span class="lwptoc_item_number">2.13.</span>
+<span class="lwptoc_item_label">adb shell pm list permissions</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_settings">
+<span class="lwptoc_item_number">2.14.</span>
+<span class="lwptoc_item_label">adb shell settings</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_dumpsys">
+<span class="lwptoc_item_number">2.15.</span>
+<span class="lwptoc_item_label">adb shell dumpsys</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_wm_density">
+<span class="lwptoc_item_number">2.16.</span>
+<span class="lwptoc_item_label">adb shell wm density</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_dumpsys_window_displays">
+<span class="lwptoc_item_number">2.17.</span>
+<span class="lwptoc_item_label">adb shell dumpsys window displays</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_wm_size">
+<span class="lwptoc_item_number">2.18.</span>
+<span class="lwptoc_item_label">adb shell wm size</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#ADB_Shell_command_to_Send_SMS_screen">
+<span class="lwptoc_item_number">2.19.</span>
+<span class="lwptoc_item_label">ADB Shell command to Send SMS screen</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_screencap">
+<span class="lwptoc_item_number">2.20.</span>
+<span class="lwptoc_item_label">adb shell screencap</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_screenrecord">
+<span class="lwptoc_item_number">2.21.</span>
+<span class="lwptoc_item_label">adb shell screenrecord</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_getprop_adb_shell_setprop">
+<span class="lwptoc_item_number">2.22.</span>
+<span class="lwptoc_item_label">adb shell getprop &amp; adb shell setprop</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_-s_shell_getprop">
+<span class="lwptoc_item_number">2.23.</span>
+<span class="lwptoc_item_label">adb -s shell getprop</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_cat_proccpuinfo">
+<span class="lwptoc_item_number">2.24.</span>
+<span class="lwptoc_item_label">adb shell cat /proc/cpuinfo</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#Get_an_Android_device_properties">
+<span class="lwptoc_item_number">2.25.</span>
+<span class="lwptoc_item_label">Get an Android device properties</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_cd">
+<span class="lwptoc_item_number">2.26.</span>
+<span class="lwptoc_item_label">adb shell cd</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_rm">
+<span class="lwptoc_item_number">2.27.</span>
+<span class="lwptoc_item_label">adb shell rm</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_mkdir">
+<span class="lwptoc_item_number">2.28.</span>
+<span class="lwptoc_item_label">adb shell mkdir</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_cp">
+<span class="lwptoc_item_number">2.29.</span>
+<span class="lwptoc_item_label">adb shell cp</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_mv">
+<span class="lwptoc_item_number">2.30.</span>
+<span class="lwptoc_item_label">adb shell mv</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_top">
+<span class="lwptoc_item_number">2.31.</span>
+<span class="lwptoc_item_label">adb shell top</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_ip">
+<span class="lwptoc_item_number">2.32.</span>
+<span class="lwptoc_item_label">adb shell ip</span>
+</a>
+</div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#adb_shell_netstat">
+<span class="lwptoc_item_number">2.33.</span>
+<span class="lwptoc_item_label">adb shell netstat</span>
+</a>
+</div></div></div><div class="lwptoc_item"> <a href="https://technastic.com/adb-shell-commands-list/#ADB_Shell_KeyEvent_commands">
+<span class="lwptoc_item_number">3.</span>
+<span class="lwptoc_item_label">ADB Shell KeyEvent commands</span>
+</a>
+</div></div></div>
+</div></div><h2><span id="What_is_ADB_Shell">What is ADB Shell?</span></h2>
+<p>ADB commands can be used to debug Android devices, installing or uninstalling apps, and getting information about a connected device. ADB works with the aid of three components called Client, Daemon, and Server. If you are curious about how these 3 components work together to make ADB and ADB shell commands functions, see below:</p><div class="code-block code-block-2" style="margin: 8px auto; text-align: center; display: block; clear: both;">
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3671910213332959" data-ad-slot="1412193414" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<ul><li><b>Client</b>: It’s is very computer on which you use a command-line terminal to issue an ADB command. which sends commands.</li>
+<li><b>Daemon</b>: Or, ADBD is a background process that runs on both the connected devices. It’s responsible for running commands on a connected emulator or Android device.</li>
+<li><b>Server</b>: It runs in the background and works as a bridge between the Client and the Daemon and manages the communication. which manages communication between the client and the daemon.</li>
+</ul><p>ADB Shell commands provide access to a Unix Shell that runs a command directly on your Android device. As soon as you execute an ‘adb shell’ command on the command terminal, it sends a signal to your Android device and triggers the remote shell command console. Thus ADB shell commands let you control your Android device.</p>
+<p>Using ADB commands, you can reboot your device, push and pull files, create a backup and restore it, sideload an update zip package, or an APK. ADB Shell commands, however, work on a much deeper level. They can be used to change the resolution of your device display, uninstall bloatware or system apps, enable and disable features, modify the system files, and change their configuration directly using commands from your computer.</p>
+<p>Actually, there are more tasks you can perform using these commands, and below we’ll check them all with examples. Please note that there are three prerequisites before you can make use of ADB, Fastboot, and ADB shell commands.</p><div class="code-block code-block-3" style="margin: 8px 0; clear: both;">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3671910213332959" data-ad-slot="3030135415" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<ul><li><a href="https://technastic.com/android-sdk-platform-tools-download/" target="_blank" rel="noopener noreferrer"><strong>Android SDK Platform-tools</strong></a></li>
+<li><a href="https://technastic.com/download-usb-drivers-for-android-devices-from-major-oems/" target="_blank" rel="noopener noreferrer"><strong>USB Drivers for your Android device</strong></a></li>
+<li><a href="https://technastic.com/developer-options-android/"><strong>Enable USB Debugging</strong></a></li>
+</ul><p>Now you can use <strong><a href="https://technastic.com/webadb-adb-commands-web-browser/">Web ADB</a></strong> in a web browser window to <strong><a href="https://technastic.com/adb-fastboot-android/" target="_blank" rel="noopener">run ADB commands on an Android device</a></strong> or computer without installing ADB and Fastboot tools and USB drivers.</p>
+<p>Finally, without any further ado, let’s proceed with our list of ADB Shell commands.</p>
+<p><strong>Warning:</strong> Don’t use the commands mentioned on this page unless you know how to use them and have some prior knowledge or experience.</p>
+<h2><span id="ADB_Shell_Commands_List_Cheat_Sheet"><span id="ADB_Shell_Commands_List">ADB Shell Commands List &amp; Cheat Sheet</span></span></h2>
+<p>In this ADB shell commands cheat sheet, I’ll try to explain the function of all commands in simple language.</p>
+<h4><span id="adb_shell">adb shell</span></h4>
+<p>This command activates the remote shell command console on the connected Android smartphone or tablet.</p>
+<h4><span id="adb_shell_pm_uninstall">adb shell pm uninstall</span></h4>
+<p>This is really a very useful ADB Shell command. Using this, you can easily <strong>uninstall the unwanted system apps</strong>. To be able to execute it, you must issue ‘<strong>adb shell</strong>‘ command first. You can then use <code>pm uninstall -k --user 0</code>&nbsp;or <code>pm uninstall --user 0</code> followed by the Android app package name as shown below.</p>
+<pre>pm uninstall -k --user 0 <span style="color: #0000ff;">com.facebook.appmanager</span></pre>
+<p><strong><span style="color: #ff0000;"><code dir="ltr" translate="no"><span style="color: #000000;">-k</span></code></span></strong>: Keep the app data and cache after package removal. If you want the app data to be cleared as well, use the following</p>
+<pre>pm uninstall --<span class="hljs-keyword">user</span> <span class="hljs-number">0</span> <span style="color: #0000ff;">com.android.chrome</span></pre>
+<p>If you don’t know the app package name for the apps you want to remove, you can use <code>adb shell pm list packages</code> to find it.</p>
+<p>This command can help you if you want to <a href="https://technastic.com/remove-samsung-bloatware-safe-to-remove-apps/">remove all bloatware from your Android phone</a>. Please note that most system apps don’t have the ‘<strong>Uninstall</strong>‘ option on the device but this command works magically.</p>
+<h4><span id="adb_shell_cmd_package_install-existing">adb shell cmd package install-existing</span></h4>
+<p>Using the above command, you can <strong>re-install an uninstalled system app</strong>.</p>
+<pre>cmd package install-existing <span style="color: #0000ff;">com.facebook.appmanager</span></pre>
+<h4><span id="adb_shell_pm_disable-user_-user_0">adb shell pm disable-<span class="hljs-keyword">user</span> —<span class="hljs-keyword">user</span> <span class="hljs-number">0</span></span></h4>
+<p>If you want to disable a system app on your Android device, you can execute the above command followed by the app package name</p>
+<pre>pm disable-user --user 0 <span style="color: #0000ff;">com.google.ar.core</span></pre>
+<h4><span id="adb_shell_pm_clear_-user_0">adb shell pm clear –user 0</span></h4>
+<p>Using this command, you can delete all data associated with an app.</p>
+<p>adb shell pm clear –user 0 <span style="color: #0000ff;">com.facebook.appmanager</span></p>
+<h4><span id="adb_shell_pm_hide_-user_0">adb shell pm hide –user 0</span></h4>
+<p>In case you want to hide an installed app on your Android device, you can execute this command line followed by the app package name.</p>
+<pre>adb shell pm hide --user 0 <span style="color: #0000ff;">com.whatsapp</span></pre>
+<h4><span id="adb_shell_pm_list_packages">adb shell pm list packages</span></h4>
+<p>Using the above ADB Shell command, you can print the list of the app package names for all apps installed on your Android device. You can use this command with different parameters to get a more specific list of app packages.</p>
+<p>For instance, if you want to list the system apps only, use</p>
+<pre>adb shell pm list packages -s</pre>
+<p>In order to list all third-party apps installed on your Android phone or tablet, you issue the following command.</p>
+<pre>adb shell pm list packages -3</pre>
+<p>Do you want ADB Shell to show the list of all enabled or disabled apps on your device, try the command with parameters like ‘<strong>-d</strong>‘ (for disabled apps), ‘<strong>-e</strong>‘ (for enabled apps), and ‘<strong>-u</strong>‘ (for uninstalled apps).</p>
+<pre>adb shell pm list packages -d</pre>
+<pre>adb shell pm list packages -e</pre>
+<pre>adb shell pm list packages -u</pre>
+<p>To list app packages with specific keywords filters.</p>
+<pre>adb shell pm list packages <span style="color: #0000ff;">&lt;keywords&gt;</span></pre>
+<p>To find the list of apps along with their associated packages, execute the following command</p>
+<pre>adb shell pm list packages -f</pre>
+<p>You can easily get a list of group packages by a certain manufacturer, or come common term. For instance, if you want to list all apps by Google, you can use the following command.</p>
+<pre>adb shell pm list packages | grep '<span style="color: #0000ff;">google</span>'</pre>
+<p>You can replace “google” with “samsung”, “huawei”, “xiaomi”, “miui”, “evenwell”, “android”, “facebook”, etc. to get desired list of packages. You can refer to our detailed <a href="https://technastic.com/freeze-uninstall-system-apps-android/">tutorial on removing bloatware from Android devices using ADB</a> for more information.</p>
+<h4><span id="adb_shell_pm_path_package-name">adb shell pm path &lt;package-name&gt;</span></h4>
+<p>This command <strong>displays the APK path</strong> on the device’s file system.</p>
+<h4><span id="adb_shell_pm_create-user">adb shell pm create-user</span></h4>
+<p>You can use this command to create a new user on your Android device.</p>
+<pre>adb shell pm create-user <span style="color: #0000ff;">username</span></pre>
+<h4><span id="adb_shell_pm_remove-user">adb shell pm remove-user</span></h4>
+<p>Just in case you want to remove a user from your device, you can use the above command with followed by the <code>user_id</code> as shown below.</p>
+<pre>adb shell pm remove-user <span style="color: #0000ff;">user 1</span></pre>
+<h4><span id="adb_shell_pm_get-max-users">adb shell pm get-max-users</span></h4>
+<p>By using this command, you can print the maximum number of users supported on an Android device.</p>
+<h4><span id="adb_shell_pm_list_features">adb shell pm list features</span></h4>
+<p>Use the above command to print all supported features of the system.</p>
+<h4><span id="adb_shell_pm_list_permissions">adb shell pm list permissions</span></h4>
+<p>This command prints the list of all known permissions, optionally only those in <code>group</code>. You can use it with the following parameters.</p>
+<ul><li><code><strong>-g</strong></code>: Organize permissions by group</li>
+<li><code><strong>-f</strong></code>: Print all information</li>
+<li><code><strong>-s</strong></code>: Short summary of permissions</li>
+<li><strong><code>-d</code></strong>: List dangerous permissions only</li>
+<li><code><strong>-u</strong></code>: List the permissions seen by users only</li>
+</ul><pre>adb shell pm list permissions <span style="color: #0000ff;">-d</span> group</pre>
+<h4><span id="adb_shell_settings">adb shell settings</span></h4>
+<p>You can use this command to <strong>get information about certain settings</strong> on your Android device. By adding different parameters, you can find out the Android settings provider, current system volume level, notification sound, device ID, Bluetooth MAC address, current mobile data status, current WiFi status, etc.</p>
+<ul><li>
+<pre>adb shell settings list system</pre>
+</li>
+<li>
+<pre>adb shell settings get system volume_system</pre>
+</li>
+<li>
+<pre>adb shell settings get system notification_sound</pre>
+</li>
+<li>
+<pre>adb shell settings list secure</pre>
+</li>
+<li>
+<pre>adb shell settings get secure android_id</pre>
+</li>
+<li>
+<pre>adb shell settings get secure bluetooth_address</pre>
+</li>
+<li>
+<pre>adb shell settings list global</pre>
+</li>
+<li>
+<pre>adb shell settings get global mobile_data</pre>
+</li>
+<li>
+<pre>adb shell settings get global wifi_on</pre>
+</li>
+</ul><h4><span id="adb_shell_dumpsys">adb shell dumpsys</span></h4>
+<p>It’s a very flexible command that can be used standalone or with various parameters to <strong>get data related to battery, display, CPU, RAM, storage, etc</strong>. The execution of this command will give you detailed information about the Android device’s software and hardware configuration.</p>
+<p>Note: In order to use this tool don’t forget to add permission into your Android manifest automatically <code>android.permission.DUMP</code></p>
+<pre>adb shell dumpsys</pre>
+<p>Other variations of the command are as follows:</p>
+<ul><li>
+<pre>adb shell dumpsys input</pre>
+</li>
+<li>
+<pre>adb shell dumpsys display</pre>
+</li>
+<li>
+<pre>adb shell dumpsys battery</pre>
+</li>
+<li>
+<pre>adb shell dumpsys batterystats</pre>
+</li>
+<li>
+<pre>adb shell dumpsys activity</pre>
+</li>
+<li>
+<pre>adb shell dumpsys cpuinfo</pre>
+</li>
+<li>
+<pre>adb shell dumpsys battery</pre>
+</li>
+</ul><p>Executing the ‘<strong>adb shell dumpsys cpuinfo</strong>‘ command, for instance, will print a list of CPU usage by the running processes and apps on your Android device as shown below:</p>
+<pre>PS C:\Users\Technastic\Desktop&gt; adb devices
+List of devices attached
+RZ8M810BARJ device
+
+PS C:\Users\Technastic\Desktop&gt; adb shell dumpsys cpuinfo
+Load: 12.48 / 12.76 / 12.82
+CPU usage from 138400ms to 89027ms ago:
+8.1% 5954/system_server: 5.5% user + 2.5% kernel / faults: 9802 minor 5 major
+3.1% 6485/com.android.phone: 2.2% user + 0.9% kernel / faults: 6575 minor 1 major
+2.7% 6596/com.android.systemui: 2.1% user + 0.6% kernel / faults: 3178 minor 1 major
+2.6% 26484/com.netflix.mediaclient: 1.3% user + 1.3% kernel / faults: 109 minor
+2% 2231/sugov:0: 0% user + 2% kernel
+1% 24100/kworker/u18:2: 0% user + 1% kernel
+1% 5706/statsd: 0.9% user + 0.1% kernel
+0.5% 3752/ueventd: 0.4% user + 0.1% kernel / faults: 25 minor
+0.5% 5721/rild: 0.3% user + 0.2% kernel / faults: 20 minor
+0.5% 5169/logd: 0.3% user + 0.2% kernel / faults: 43 minor
+0.5% 5558/surfaceflinger: 0.3% user + 0.2% kernel / faults: 1 minor
+0.4% 5170/servicemanager: 0.2% user + 0.2% kernel
+0.4% 1/init: 0.3% user + 0% kernel
+0.4% 19725/kworker/u17:3: 0% user + 0.4% kernel
+0.3% 5546/lmkd: 0% user + 0.3% kernel
+0.3% 5456/kworker/u17:1: 0% user + 0.3% kernel
+0.3% 5715/argosd: 0.1% user + 0.1% kernel
+0.3% 2233/sugov:4: 0% user + 0.3% kernel
+0.2% 23487/kworker/u18:0: 0% user + 0.2% kernel
+0.1% 23896/kworker/u16:3: 0% user + 0.1% kernel / faults: 6 minor
+0.1% 8/rcu_preempt: 0% user + 0.1% kernel
+0.1% 5718/lhd: 0% user + 0.1% kernel
+0.1% 23489/kworker/0:2: 0% user + 0.1% kernel</pre>
+<h4><span id="adb_shell_wm_density">adb shell wm density</span></h4>
+<p>The above command can be used to <strong>find out the pixel density</strong> of your Android device’s display.</p>
+<h4><span id="adb_shell_dumpsys_window_displays">adb shell dumpsys window displays</span></h4>
+<p>You’ll get a very detailed output on the command window with info like pixel resolution, <strong>FPS, and DPI of your phone’s display</strong>.</p>
+<pre>Display: mDisplayId=0
+    init=1440x3040 560dpi base=1080x2280 420dpi cur=1080x2280 app=1080x2069 rng=1080x1017-2069x2069
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion((0,0,1080,2280))
+
+mDisplayInfo=DisplayInfo{"Built-in Screen, displayId 0", uniqueId "local:0", app 1080 x 2069, real 1080 x 2280, largest app 2069 x 2069, smallest app 1080 x 1017, mode 1, defaultMode 1, modes [{id=1, width=1440, height=3040, fps=60.000004}</pre>
+<h4><span id="adb_shell_wm_size">adb shell wm size</span></h4>
+<p>You can <strong>find out the display resolution</strong> of your phone with this command.</p>
+<pre>PS C:\Users\Technastic\Desktop&gt; adb shell wm size
+Physical size: 1440x3040
+Override size: 1080x2280</pre>
+<p>If you want to modify the screen resolution and the pixel density of your Android’s display. If you’re not sure about your device’s display resolution, execute the command given below. Suppose your phone’s display resolution is QHD+, you can easily change it to Full HD+ or HD+.</p>
+<ul><li><strong>FHD</strong></li>
+</ul><pre>adb shell wm size 1080x2220</pre>
+<pre>adb shell wm density 420</pre>
+<ul><li><strong>HD</strong></li>
+</ul><pre>adb shell wm size 720x1560</pre>
+<pre>adb shell wm density 360</pre>
+<h4><span id="ADB_Shell_command_to_Send_SMS_screen">ADB Shell command to Send SMS screen</span></h4>
+<p>If you want to <strong>send a text message using a command</strong>, try the following code.</p>
+<pre>adb shell am start -a android.intent.action.SENDTO -d sms:+918052000222 --es sms_body "Test --ez exit_on_sent false</pre>
+<h4><span id="adb_shell_screencap">adb shell screencap</span></h4>
+<p>By using this command, you can c<strong>apture a screenshot</strong> and download it to your computer using the <a href="https://technastic.com/adb-commands-list-adb-cheat-sheet/#adb_pull">‘adb pull’ command</a> as described above.</p>
+<pre>adb shell screencap /sdcard/screenshot-01.png</pre>
+<h4><span id="adb_shell_screenrecord">adb shell screenrecord</span></h4>
+<p>On Android devices running Android 4.4 KitKat and above, you can even <strong>record your phone or tablet’s screen</strong> and download the recorded video to your computer. Besides, you can also set conditions like video duration, resolution in pixels and video bitrate, etc.</p>
+<pre>adb shell screenrecord /sdcard/screenrecord-01.mp4</pre>
+<pre>adb pull screenrecord /sdcard/screenrecord.mp4</pre>
+<p>You can stop screen recording using <strong>Ctrl+C</strong>. In case you want to record the screen in a specific resolution, the following command lets you set custom width and height in pixels.</p>
+<pre>adb shell screenrecord --size 1920x1080 /sdcard/screenrecord-01.mp4</pre>
+<p>By default, Android’s screen recorder’s duration is set to 180 seconds (3 minutes). You can decrease this time limit according to your needs (180 seconds is the maximum limit).</p>
+<pre>adb shell screenrecord --time-limit 120 /sdcard/screenrecord-01.mp4</pre>
+<p>Similarly, you can also determine the bitrate of the video output. To set the bitrate to 4MBPS, for example, you can use the following value:</p>
+<pre>adb shell screenrecord --bit-rate 6000000 /sdcard/screenrecord-01.mp4</pre>
+<h4><span id="adb_shell_getprop_adb_shell_setprop">adb shell getprop &amp; adb shell setprop</span></h4>
+<p>The ‘<strong>getprop</strong>‘ and ‘<strong>setprop</strong>‘ commands can be used to <strong>view and set or change the configuration of the ‘build.prop’ file</strong> on Android devices. The following command, for example, displays the Android system properties information.</p>
+<pre>adb shell getprop</pre>
+<p>Below are some more examples:</p>
+<pre>getprop ro.build.version.sdk</pre>
+<pre>getprop ro.chipname</pre>
+<p>In case you want to change the value of an entry in the build.prop, you can use the ‘<strong>adb shell setprop</strong>‘ commands. See the examples below:</p>
+<pre>getprop net.dns1 1.2.3.4</pre>
+<pre>setprop net.dns1 1.3.4.5</pre>
+<pre>getprop net.dns2 1.1.2.3</pre>
+<pre>setprop net.dns2 1.2.3.4</pre>
+<p>In the same way, if you want to change the configuration of the VMHeap size on your Android device, you can use the following command.</p>
+<pre>setprop dalvik.vm.heapsize 60m</pre>
+<p>There are some more variations of the ‘<strong>adb shell getprop</strong>‘ command that let you see information about Android system properties, SDK API level, Android security patch version, Soc, Android version, device model, device manufacturer, ADB serial number, OEM unlock status, Android device build fingerprint, WiFi MAC address, etc.</p>
+<ul><li>
+<pre>adb shell getprop</pre>
+</li>
+<li>
+<pre>adb shell getprop ro.build.version.sdk</pre>
+</li>
+<li>
+<pre>adb shell getprop ro.build.version.security_patch</pre>
+</li>
+<li>
+<pre>adb shell getprop ro.board.platform</pre>
+</li>
+<li>
+<pre>adb shell getprop ro.build.version.release</pre>
+</li>
+<li>
+<pre>adb shell getprop ro.vendor.product.model</pre>
+</li>
+<li>
+<pre>adb shell getprop ro.product.manufacturer</pre>
+</li>
+<li>
+<pre>adb shell getprop ro.serialno</pre>
+</li>
+<li>
+<pre>adb shell getprop ro.oem_unlock_supported</pre>
+</li>
+<li>
+<pre>adb shell getprop ro.bootimage.build.fingerprint</pre>
+</li>
+<li>
+<pre>adb shell getprop ro.boot.wifimacaddr</pre>
+</li>
+</ul><h4><span id="adb_-s_shell_getprop">adb -s shell getprop</span></h4>
+<p>If you want to check the full configuration, running services and information about your Android phone or tablet, you can use the above command. First off, run the <code>adb devices</code> command and copy the alpha-numeric value of your device ID from the output.</p>
+<pre>PS C:\Users\Technastic\Desktop&gt; adb devices
+List of devices attached
+<span style="color: #0000ff;">RZ8M810BARJ</span> device</pre>
+<p>Then execute the following command. Don’t forget to replace the device ID highlighted in blue with the ID of your device.</p>
+<pre>adb -s <span style="color: #0000ff;">RZ8M810BARJ</span> shell getprop</pre>
+<h4><span id="adb_shell_cat_proccpuinfo">adb shell cat /proc/cpuinfo</span></h4>
+<p>Use the above command to get complete information about the CPU on your phone or tablet.</p>
+<h4><span id="Get_an_Android_device_properties">Get an Android device properties</span></h4>
+<p>By running the following command, you can see the system properties.</p>
+<pre>adb shell getprop | grep -e 'model' -e 'version.sdk' -e 'manufacturer' -e 'hardware' -e 'platform' -e 'revision' -e 'serialno' -e 'product.name' -e 'brand'</pre>
+<h4><span id="adb_shell_cd">adb shell cd</span></h4>
+<p><strong>Change ADB shell directory</strong> using ‘<em>cd &lt;directory&gt;</em>‘</p>
+<pre>adb shell</pre>
+<p>Then execute the following command:</p>
+<pre>cd /system</pre>
+<h4><span id="adb_shell_rm">adb shell rm</span></h4>
+<p>This command lets you easily <strong>delete a file or folder from your Android device’s storage</strong>. Launch the command window, execute the ‘adb shell’ command and then try the following command with ‘<strong>-f</strong>‘ (to delete a file) and ‘<strong>-d</strong>‘ (to remove a directory) parameters.</p>
+<pre>rm -f /sdcard/com.whatsapp.apk</pre>
+<pre>rm -d /sdcard/WhatsApp</pre>
+<p><strong>Note:</strong> Instead of ‘<strong>rm-d</strong>‘, you can also use ‘<strong>rmdir</strong>‘.</p>
+<h4><span id="adb_shell_mkdir">adb shell mkdir</span></h4>
+<p>Besides deleting an existing directory or folder, ADB Shell also lets you <strong>create a new directory or sub-directory</strong>. Not just that, you can set permissions for the newly created folder.</p>
+<pre>mkdir /sdcard/NewFolder
+
+mkdir -p /sdcard/NewFolder/NewFolder1
+
+mkdir -m 644 /sdcard/NewFolder</pre>
+<h4><span id="adb_shell_cp">adb shell cp</span></h4>
+<p>‘<strong>cp</strong>‘ stands for ‘copy’. You can use this command to <strong>copy files and directories</strong> located on your Android device. Again, you need to start with the ‘<strong>adb shell</strong>‘ command first.</p>
+<p>To copy files and then paste them, by mentioning the source and destination locations as shown below:</p>
+<pre>cp /sdcard/OPWallpaperResources.apk /sdcard/DCIM/Camera</pre>
+<h4><span id="adb_shell_mv">adb shell mv</span></h4>
+<p>‘<strong>mv</strong>‘ stands for ‘move’. This command can be used to <strong>move a file</strong> stored on your device from a source location to a destination location.</p>
+<pre>mv /sdcard/livewallpapers.apk /system/app</pre>
+<p>The following command will allow you to move a file with a new name.</p>
+<pre>mv /sdcard/livewallpapers.apk /sdcard/Wallpapers</pre>
+<h4><span id="adb_shell_top">adb shell top</span></h4>
+<p>To display the list of top CPU processes on an Android phone or tablet, you can use the above command. CPU processes monitor can be stopped using <strong>Ctrl+C</strong>.</p>
+<h4><span id="adb_shell_ip">adb shell ip</span></h4>
+<p>Find out the WiFi IP address of the of an Android phone or tablet.</p>
+<pre>ip -f inet addr show wlan0</pre>
+<h4><span id="adb_shell_netstat">adb shell netstat</span></h4>
+<p>Displays the network statistics of Android phones.</p>
+<pre>adb shell netstat</pre>
+<h2><span id="ADB_Shell_KeyEvent_commands">ADB Shell KeyEvent commands</span></h2>
+<p>Android devices support KeyEvent commands that can let you perform certain actions that require you to press a hardware button or tap an app or UI option. You can control your Android phone or tablet device simply by using these KeyEvent commands. These commands might come in handy if the hardware keys on your device are not functioning properly due to some damage.</p>
+<ul><li style="list-style-type: none;">
+<ul><li>
+<pre><strong>Turn Android device ON or OFF:</strong> adb shell input keyevent 2</pre>
+</li>
+<li>
+<pre><strong>Press Home button:</strong> adb shell input keyevent 3</pre>
+</li>
+<li>
+<pre><strong>Press Back button:</strong> adb shell input keyevent 4
+</pre>
+</li>
+<li>
+<pre><strong>Press Call button:</strong> adb shell input keyevent 5
+</pre>
+</li>
+<li>
+<pre><strong>End a call:</strong> adb shell input keyevent 6
+</pre>
+</li>
+<li>
+<pre><strong>Press Power Button to wake up screen:</strong> adb shell input keyevent 26
+</pre>
+</li>
+<li>
+<pre><strong>Turn ON the camera:</strong> adb shell input keyevent 27
+</pre>
+</li>
+<li>
+<pre><strong>Open wen browser:</strong> adb shell input keyevent 64
+</pre>
+</li>
+<li>
+<pre><strong>Press the Enter key:</strong> adb shell input keyevent 66
+</pre>
+</li>
+<li>
+<pre><strong>Press Backspace button:</strong> adb shell input keyevent 67
+</pre>
+</li>
+<li>
+<pre><strong>Open Contacts app:</strong> adb shell input keyevent 207
+</pre>
+</li>
+<li>
+<pre><strong>Decrease display brightness:</strong> adb shell input keyevent 220
+</pre>
+</li>
+<li>
+<pre><strong>Increase Display brightness:</strong> adb shell input keyevent 221
+</pre>
+</li>
+<li>
+<pre><strong>Cut text:</strong> adb shell input keyevent 277</pre>
+</li>
+<li>
+<pre><strong>Copy text:</strong> adb shell input keyevent 278</pre>
+</li>
+<li>
+<pre><strong>Paste text:</strong> adb shell input keyevent 279</pre>
+</li>
+<li>
+<pre><strong>Make the device sleep</strong>: adb shell input keyevent KEYCODE_SLEEP</pre>
+</li>
+<li>
+<pre><strong>Make device wakeup</strong>: adb shell input keyevent KEYCODE_WAKEUP</pre>
+</li>
+<li>
+<pre><strong>Toggle Power menu</strong>: (adb shell) input keyevent KEYCODE_POWER</pre>
+</li>
+</ul></li>
+</ul><p><strong>Read Next: <a href="https://technastic.com/unlock-android-phone-pin-pattern-adb/">Unlock Android Lock Screen PIN and Pattern using ADB</a></strong></p>
+
+<div class="entry-tags"><a href="https://technastic.com/tag/adb-and-fastboot/" rel="tag">ADB and Fastboot</a></div>
+</div>
+</article>
+</div> 
+<input type="hidden" name="llc_ajax_url" id="llc_ajax_url" value="https://technastic.com/wp-admin/admin-ajax.php">
+<input type="hidden" name="llc_post_id" id="llc_post_id" value="9921">
+<div id="llc_comments">
+<div style="text-align: center;">
+<div id="llc-comments-loader" style="display: none;">
+
+
+<img src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%200%200&#39;%3E%3C/svg%3E" data-lazy-src="data:image/gif;base64,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"><noscript><img src="data:image/gif;base64,R0lGODlhNgA3APMJAMfHx6KiopycnO7u7rm5ufDw8Obm5rS0tM7Ozv///wAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAJACwAAAAANgA3AAAEwDDJSau9OOvNu/9gKI5kaZ6lcQjCYaAnws4CApMGTb93uOqsQy8EpA1Bxdnx8wMKl51ckXccEIIDjExnWw4CuuxFhc0AwIDRVUcwnWdpYtEENsqBdJ1oTWuX3ixxIAV1MwUxaDhrBIdQjo+QkZKTlJWWHG+CjpkagDWPnpoVhSyPpAEZp6Z6Wn2grmaJkJyXtba3uLm6u5O0iAGiH6G/gSOqeXZ3SsjLIcNusHuyv8G8kb65z7nH26zZ0d/A1uNHEQAh+QQJCgAJACwHAAYALQAvAAAEsjDJSWsdRAgyrP/gNwRa2YVoOmWlRqhw2LZxbc2lrUts++62AqlV8BgOLgPwwuJ4EDhECEACLBMGnEb59C2R2sNnmANqy7fZ8qz5UEtWIBgndlevWS33moLOpHwwR0mBhYaHiImKiyhvcYwJjpFejG8uZG2MmJsBkJuWG5CgVpKQkwGPpqqrrK2ur7A7pXyzdnC0lGNqV5syu2u/XbdXo413gbWxhsmqxa29z8HNuazMMBEAIfkECQoACQAsBwAHAC8ALgAABLAwyUmrBSEAy7v/EiaMG2ieVDaOaGuqqyt3IjnflVji/DkQpMFJ10sMYCPhpybY3YAr2wcZ6EWjIKr1ylpGnTPo10TsFaiFoqwAJaTV8Lh8Tq/bfYfRwXCncREhGWByBlxJTINweYaLWHWGkFWPkYh2jVcHCWV1hYZ8fRQIf6AWBot7pKmqq6ytYYJwm14riS6VWVdFWriOPLuzUjy3ILLCsK6gxarDq7/Nua3Mq8ouEQAh+QQJCgAJACwHAAcALgAuAAAErjDJSasFIQDLu/8JJowbaJ5TNo5oC6qrK3MiOd+UWOJ83+k+CRBUE+xwxSMHxuoxA69Vk/ckSpWzpGno4wa/4LB4TC6bz+gBgTQQZrDhwVN9Na+lxmoZz4/t+1pld3VeYwVzaBUFdwQFiY+QkZJpByMHBpIIfAhWGj0GfQKYP3U4lX0HHno3oVMWqzOtAh6BN6d8qbRvn6GjiZp4nF+FFAanl2C1kLCPzL+lmbs4EQAh+QQJCgAJACwHAAcALQAwAAAEsTDJSasFIQDLu/+YIG5faVaZKJ6smapt3IWjbFchee+8l/eTH0gl0O1oxc9r1VsGlMRnMzpUGW/I6yWjxXKB4LB4TC6bz+g0S5j+ZdtEJPPsdKadb/Sbrf+q/4CBgoOEhRQDBCMDJXw3A06LM3E9iVEEHnY8UTAdmTubc1tWlJuXPn4dBgciBwYcBZBACJsIr5UEBUAGoAKuaqugB3+8oXTEf8Clf7ugvmqzloKqrM4xEQAh+QQJCgAJACwHAAcALQAvAAAErjDJSasFIQDLu/+YIG5faVaZKJ6smapt3IWjbFchee+8l/eTH0gl0O1oxc9r1VsGlMRnMzpUGW/I6yWjxXKB4LB4TC6bz+g0S5j+ZdtEJPPsdKadb/Sbrf+q/4CBgoMlBgciBwaCCFFJfwaNIoo8fBWHkQeUcR2RMDt2HJ1zNqAWl42ZR5sckJGTqhpVqxYDBIgDYIa3HQNOuIC2UQSBncSRgcGzagW+ggXBBAU3EQAh+QQJCgAJACwFAAcALwAuAAAErTDJSauVIARwu/9dJowcaJ6UNo5oa6qrK4erUM74JN5573u7H0bDA9aKMxHpVQv8YCwQ1OmbmpS2HxZ5CQq9wrB4TC6bzz3DYXQwoGlNxLtiaK7c5+DaLjjkj3wxZlOBUWVTe3Z+Zlt1fHiMRENxcxZqbJCVmpucnZ6WBJieA1MDWpIgoU0EPltSfFVNr3axNamKrUcgBaWnGycFqgQFny5gna6eVsqynsnOqDMRACH5BAUKAAkALAYABwAuAC4AAASyMMlJq00gBHC7/1cmjBxonpM2jmgLqqsrh6tQzpVxjIfxiTfcBFEjCWWG4sp3BH52SsGhWQtWojEhjNXBcnHbgAeqnApFxk4yyjxrrBZiEXGc6Xjtun7P7/v/gCYDBHiBHgNhA4YSToRFBItoNliLYZSGYY5VkVUFiYsYbxIFjgQFoKipqqusra6BTnuxP5t1knBXRXphL7p1vLQruC63JrO2oq+cG6/FrcCs0KvOrccuEQA7"></noscript> </div>
+
+
+<button id="llc_comments_button" class="btn ">Load Comments</button>
+</div>
+</div>
+</div>
+<div class="typology-section typology-section-related">
+<div class="section-head"><h3 class="section-title h6">Read more</h3></div>
+<div class="section-content section-content-c layout-odd">
+<div class="typology-posts">
+<article class="typology-post typology-layout-c col-lg-6 text-center post-image-off post-19279 post type-post status-publish format-standard has-post-thumbnail hentry category-android tag-adb-and-fastboot tag-android-tips tag-remove-system-apps tag-tools-and-utilities">
+<header class="entry-header">
+<h2 class="entry-title h4"><a href="https://technastic.com/adb-app-control-extended-android/">ADB AppControl – Debloat and Control Android Device Remotely</a></h2>
+<div class="entry-meta"><div class="meta-item meta-date"><span class="updated">May 28, 2022</span></div></div>
+</header>
+</article> <article class="typology-post typology-layout-c col-lg-6 text-center post-image-off post-19093 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-tips tag-adb-and-fastboot tag-android-tips tag-oneplus tag-samsung tag-xiaomi">
+<header class="entry-header">
+<h2 class="entry-title h4"><a href="https://technastic.com/how-to-find-android-device-codename/">3 Ways to Find Android Device Codename</a></h2>
+<div class="entry-meta"><div class="meta-item meta-date"><span class="updated">June 5, 2022</span></div></div>
+</header>
+</article> <article class="typology-post typology-layout-c col-lg-6 text-center post-image-off post-19138 post type-post status-publish format-standard has-post-thumbnail hentry category-android tag-adb-and-fastboot tag-android-tips tag-remove-system-apps tag-tools-and-utilities">
+<header class="entry-header">
+<h2 class="entry-title h4"><a href="https://technastic.com/universal-android-debloater-best-bloatware-remover/">Universal Android Debloater | Best Android Bloatware Remover Tool</a></h2>
+<div class="entry-meta"><div class="meta-item meta-date"><span class="updated">May 28, 2022</span></div></div>
+</header>
+</article> <article class="typology-post typology-layout-c col-lg-6 text-center post-image-off post-18943 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-tutorials tag-adb-and-fastboot tag-android-tips tag-tips-and-tricks">
+<header class="entry-header">
+<h2 class="entry-title h4"><a href="https://technastic.com/unlock-android-phone-pin-pattern-adb/">How to Unlock Android Phone via ADB (PIN &amp; Pattern)</a></h2>
+<div class="entry-meta"><div class="meta-item meta-date"><span class="updated">December 26, 2021</span></div></div>
+</header>
+</article> <article class="typology-post typology-layout-c col-lg-6 text-center post-image-off post-9454 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-downloads tag-adb-and-fastboot">
+<header class="entry-header">
+<h2 class="entry-title h4"><a href="https://technastic.com/android-sdk-platform-tools-download/">Download Android SDK Platform-Tools (Windows/Mac/Linux)</a></h2>
+<div class="entry-meta"><div class="meta-item meta-date"><span class="updated">May 27, 2022</span></div></div>
+</header>
+</article> <article class="typology-post typology-layout-c col-lg-6 text-center post-image-off post-9315 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-tutorials tag-adb-and-fastboot tag-android-root tag-android-tips tag-rooting-android">
+<header class="entry-header">
+<h2 class="entry-title h4"><a href="https://technastic.com/android-root-magisk-twrp/">Root Android Phone with ADB Command, Magisk &amp; TWRP</a></h2>
+<div class="entry-meta"><div class="meta-item meta-date"><span class="updated">December 29, 2021</span></div></div>
+</header>
+</article> <article class="typology-post typology-layout-c col-lg-6 text-center post-image-off post-16879 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-tutorials tag-adb-and-fastboot tag-android-tips tag-tools-and-utilities">
+<header class="entry-header">
+<h2 class="entry-title h4"><a href="https://technastic.com/webadb-adb-commands-web-browser/">Run ADB Commands in Web Browser Using Web ADB</a></h2>
+<div class="entry-meta"><div class="meta-item meta-date"><span class="updated">December 29, 2021</span></div></div>
+</header>
+</article> <article class="typology-post typology-layout-c col-lg-6 text-center post-image-off post-15189 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-apple tag-adb-and-fastboot tag-android-tips tag-mac-os-x tag-macbook">
+<header class="entry-header">
+<h2 class="entry-title h4"><a href="https://technastic.com/adb-fastboot-command-mac-terminal/">Install and Use ADB and Fastboot on Mac</a></h2>
+<div class="entry-meta"><div class="meta-item meta-date"><span class="updated">December 29, 2021</span></div></div>
+</header>
+</article>
+</div>
+</div>
+</div>
+<footer id="typology-footer" class="typology-footer">
+<div class="container">
+<div class="col-lg-12 typology-footer-sidebar"><div id="text-4" class="widget clearfix widget_text"> <div class="textwidget"><div id="banner" style="overflow: hidden; display: flex; justify-content: space-around;">
+<div class="" style="max-width: 20%; max-height: 20%;"><a href="https://www.facebook.com/TechnasticWeb" target="_blank" rel="noopener noreferrer"><img class="alignnone" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2032%2032&#39;%3E%3C/svg%3E" alt="facebook" width="32" height="32" data-lazy-src="https://technastic.com/wp-content/uploads/2020/07/facebook-64x64-1.png"><noscript><img class="alignnone" src="https://technastic.com/wp-content/uploads/2020/07/facebook-64x64-1.png" alt="facebook" width="32" height="32" /></noscript></a></div>
+<div class="" style="max-width: 100%; max-height: 100%;"><a href="https://twitter.com/TechnasticWeb"><img class="alignnone" title="https://twitter.com/TechnasticWeb" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2032%2032&#39;%3E%3C/svg%3E" alt="twitter" width="32" height="32" data-lazy-src="https://technastic.com/wp-content/uploads/2020/07/twitter-64x64-1.png"><noscript><img class="alignnone" title="https://twitter.com/TechnasticWeb" src="https://technastic.com/wp-content/uploads/2020/07/twitter-64x64-1.png" alt="twitter" width="32" height="32" /></noscript></a></div>
+<div class="" style="max-width: 20%; max-height: 20%;"><a href="https://in.pinterest.com/Technastic/"><img class="alignnone" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2032%2032&#39;%3E%3C/svg%3E" alt="pinterest" width="32" height="32" data-lazy-src="https://technastic.com/wp-content/uploads/2020/07/pinterest-64x64-1.png"><noscript><img class="alignnone" src="https://technastic.com/wp-content/uploads/2020/07/pinterest-64x64-1.png" alt="pinterest" width="32" height="32" /></noscript></a></div>
+</div>
+<p style="text-align: center;"><a href="https://technastic.com/contact-us/">Contact us</a> • <a href="https://technastic.com/privacy-policy/">Privacy Policy</a></p>
+<footer>
+<p style="text-align: center;">© Technastic Media, 2014-2021</p>
+</footer>
+</div>
+</div></div>
+</div>
+</footer>
+</div>
+<div class="typology-sidebar">
+<div class="typology-sidebar-header">
+<div class="typology-sidebar-header-wrapper">
+<div class="typology-site-branding">
+<span class="site-title h4"><a href="https://technastic.com/" rel="home"><img width="600" height="87" class="typology-logo entered lazyloaded" src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/technastic-logo-600x87-1.webp" alt="Technastic" data-lazy-src="https://technastic.com/wp-content/uploads/2020/07/technastic-logo-600x87-1.png" data-ll-status="loaded"><noscript><img width="600" height="87" class="typology-logo" src="https://technastic.com/wp-content/uploads/2020/07/technastic-logo-600x87-1.png" alt="Technastic"></noscript></a></span>
+</div>
+<span class="typology-sidebar-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+</div>
+</div>
+<div class="widget typology-responsive-menu" style="display: none;">
+<ul id="menu-main-menu-1" class="typology-nav typology-main-navigation"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-28"><a href="https://technastic.com/apple/">Apple</a><span class="typology-nav-widget-acordion"><i class="fa fa-angle-down"></i></span>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1277"><a href="https://technastic.com/tag/mac-os-x/">Mac OS X</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1276"><a href="https://technastic.com/tag/iphone/">iPhone</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1275"><a href="https://technastic.com/tag/ipad/">iPad</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27"><a href="https://technastic.com/android/">Android</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-35"><a href="https://technastic.com/microsoft/windows/">Windows</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="https://technastic.com/linux/">Linux</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17414"><a href="https://technastic.com/tag/tv/">TV</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-34"><a href="https://technastic.com/tutorials/">Guides</a><span class="typology-nav-widget-acordion"><i class="fa fa-angle-down"></i></span>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1274"><a href="https://technastic.com/tips/">Tips and Tricks</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-339"><a href="https://technastic.com/geek-stuff/">Geek Stuff</a></li>
+</ul>
+</li>
+</ul> </div>
+<div id="recent-posts-2" class="widget clearfix widget_recent_entries">
+<h3 class="widget-title">Latest Tutorials</h3>
+<ul>
+<li>
+<a href="https://technastic.com/install-windows-11-unsupported-hardware-cpu-tpm/">5 Methods to Install Windows 11 on Unsupported Hardware (CPU &amp; TPM)</a>
+</li>
+<li>
+<a href="https://technastic.com/replace-powershell-with-cmd-windows-10-11/">3 Ways to Replace PowerShell with Command Prompt in Windows 10/11</a>
+</li>
+<li>
+<a href="https://technastic.com/open-powershell-windows-11-10/">17 Ways to Open PowerShell in Windows 10 &amp; 11</a>
+</li>
+<li>
+<a href="https://technastic.com/touch-screen-not-working-jeep-compass-fix/">Fix Touch Screen Not Working Issue in Jeep Compass &amp; Cherokee</a>
+</li>
+<li>
+<a href="https://technastic.com/frija-samsung-firmware-download-tool/">Download Latest Frija – Samsung Firmware Download (Guide)</a>
+</li>
+<li>
+<a href="https://technastic.com/screenshot-to-pdf-converter/">Best 3 Screenshot to PDF Converters on Windows 10 in 2022</a>
+</li>
+<li>
+<a href="https://technastic.com/punch-hole-wallpapers-galaxy-s20-note-10/">350+ Punch Hole Wallpapers for Galaxy S22 and Note 20</a>
+</li>
+<li>
+<a href="https://technastic.com/download-usb-drivers-for-android-devices-from-major-oems/">Download Latest Android USB Drivers from All OEMs</a>
+</li>
+<li>
+<a href="https://technastic.com/turn-off-talkback-on-sony-android-tv/">How to Turn Off Talkback on Sony TV or Android TV</a>
+</li>
+<li>
+<a href="https://technastic.com/set-up-use-jeeplife-app/">How to Register Jeep Life App and Use It (iOS &amp; Android)</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="typology-sidebar-overlay"></div>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/technastic.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<style>.lwptoc .lwptoc_i{background-color:#f9f9f9;border:1px solid #312edd;}.lwptoc_header{color:#000000;}.lwptoc .lwptoc_i A{color:#312edd;}.lwptoc .lwptoc_i A:hover,.lwptoc .lwptoc_i A:focus,.lwptoc .lwptoc_i A:active{color:#3f3f3f;border-color:#3f3f3f;}</style>
+<script type="text/javascript">window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script async="" data-no-minify="1" src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/lazyload.min.js.download" type="text/javascript"></script>
+<script type="text/javascript">"use strict";function wprRemoveCPCSS(){var preload_stylesheets=document.querySelectorAll('link[data-rocket-async="style"][rel="preload"]');if(preload_stylesheets&&0<preload_stylesheets.length)for(var stylesheet_index=0;stylesheet_index<preload_stylesheets.length;stylesheet_index++){var media=preload_stylesheets[stylesheet_index].getAttribute("media")||"all";if(window.matchMedia(media).matches)return void setTimeout(wprRemoveCPCSS,200)}var elem=document.getElementById("rocket-critical-css");elem&&"remove"in elem&&elem.remove()}window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><script src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/fb03dff7ad202e1b11645feeeed9f31b.js.download" data-minify="1" defer="" type="text/javascript"></script><noscript><link rel="stylesheet" href="https://technastic.com/wp-content/cache/min/1/6ef1fdea223a1423b6419d62bdf8eb41.css" media="all" data-minify="1" /></noscript>
+
+
+<quillbot-loader></quillbot-loader><iframe src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/saved_resource.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" id="pa-prebid-frame" style="display: none;"></iframe><iframe src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/saved_resource(1).html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" id="pa-pbjs-frame11" style="display: none;"></iframe><iframe src="./ADB Shell Commands List and Cheat Sheet - PDF Download_files/saved_resource(2).html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" id="pa-pbjs-frame20" style="display: none;"></iframe><quillbot-extension-portal></quillbot-extension-portal></body><quillbot-extension-root></quillbot-extension-root><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
